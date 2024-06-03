@@ -1,0 +1,515 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.11f1 (0a5ca18544bf) revision 679073'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'ko' Physical Memory: 15790 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker7
+-projectPath
+C:/unity practice/SpineSampleWithUnity
+-logFile
+Logs/AssetImportWorker7.log
+-srvPort
+57853
+Successfully changed project path to: C:/unity practice/SpineSampleWithUnity
+C:/unity practice/SpineSampleWithUnity
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 99.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/unity practice/SpineSampleWithUnity/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1636)
+    Vendor:   ATI
+    VRAM:     7895 MB
+    Driver:   27.20.1026.1
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56508
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.005365 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 81.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.778 seconds
+Domain Reload Profiling:
+	ReloadAssembly (778ms)
+		BeginReloadAssembly (103ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (546ms)
+			LoadAssemblies (105ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (146ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (315ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (80ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (81ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (105ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004382 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\unity practice\SpineSampleWithUnity\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\unity practice\SpineSampleWithUnity\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.289 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1290ms)
+		BeginReloadAssembly (220ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (135ms)
+		EndReloadAssembly (967ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (392ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (382ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (235ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3658 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (1.5 MB). Loaded Objects now: 4105.
+Memory consumption went from 140.9 MB to 139.4 MB.
+Total: 4.326000 ms (FindLiveObjects: 0.316600 ms CreateObjectMapping: 0.099700 ms MarkObjects: 3.210800 ms  DeleteObjects: 0.697100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 891315.192979 seconds.
+  path: Assets/Spine Examples/Spine Skeletons/Raggedy Spineboy/Raggedy Spineboy_Atlas.asset
+  artifactKey: Guid(a9d85e8796d75384199c06f6fdbb0d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine Examples/Spine Skeletons/Raggedy Spineboy/Raggedy Spineboy_Atlas.asset using Guid(a9d85e8796d75384199c06f6fdbb0d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29a23c52d45ef9b233da0a297bf37eed') in 0.038541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Spine Examples/Spine Skeletons/Raggedy Spineboy/Raggedy Spineboy_Material.mat
+  artifactKey: Guid(4ad4f7167d4983147ad870f93ebc9416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine Examples/Spine Skeletons/Raggedy Spineboy/Raggedy Spineboy_Material.mat using Guid(4ad4f7167d4983147ad870f93ebc9416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88651f38fd9d27318c66c71e6a1cb6a8') in 0.101033 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005019 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\unity practice\SpineSampleWithUnity\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\unity practice\SpineSampleWithUnity\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.045 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1046ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (838ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (262ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (381ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (39ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (226ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3619 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (1.4 MB). Loaded Objects now: 4149.
+Memory consumption went from 141.9 MB to 140.4 MB.
+Total: 4.830800 ms (FindLiveObjects: 0.579700 ms CreateObjectMapping: 0.123600 ms MarkObjects: 3.090900 ms  DeleteObjects: 1.034400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003704 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\unity practice\SpineSampleWithUnity\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\unity practice\SpineSampleWithUnity\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.064 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1065ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (853ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (270ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (386ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (39ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (226ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3619 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (1.5 MB). Loaded Objects now: 4152.
+Memory consumption went from 141.9 MB to 140.5 MB.
+Total: 5.281600 ms (FindLiveObjects: 0.321400 ms CreateObjectMapping: 0.097600 ms MarkObjects: 3.619900 ms  DeleteObjects: 1.241300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 481.070605 seconds.
+  path: Assets/Spine Examples/Spine Skeletons/spineboy-pro/spineboy-pro_Atlas.asset
+  artifactKey: Guid(2bedc3c43dd49f346a4c9e8a87e2fed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine Examples/Spine Skeletons/spineboy-pro/spineboy-pro_Atlas.asset using Guid(2bedc3c43dd49f346a4c9e8a87e2fed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48f838404eedf32fefe1e23cbcf85624') in 0.029818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Spine Examples/Spine Skeletons/spineboy-pro/spineboy_spineboy.mat
+  artifactKey: Guid(131ccf184b7b24a4595a99c59aa00657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine Examples/Spine Skeletons/spineboy-pro/spineboy_spineboy.mat using Guid(131ccf184b7b24a4595a99c59aa00657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a52f38ad885b585580bc17fbe0945ee7') in 0.088715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.570970 seconds.
+  path: Assets/Spine Examples/Spine Skeletons/spineboy-unity/spineboy_Atlas.asset
+  artifactKey: Guid(b4b8457d6cb8fec49a40be5b71d79e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine Examples/Spine Skeletons/spineboy-unity/spineboy_Atlas.asset using Guid(b4b8457d6cb8fec49a40be5b71d79e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '047993966a5a5e513588b23b1ca5fe86') in 0.013155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Spine Examples/Spine Skeletons/spineboy-unity/spineboy_Material Fill.mat
+  artifactKey: Guid(128e02fa6a4f5964fa898757a425b354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine Examples/Spine Skeletons/spineboy-unity/spineboy_Material Fill.mat using Guid(128e02fa6a4f5964fa898757a425b354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4147e21c58084108b54c5a6b6b45d63') in 0.038079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Spine Examples/Spine Skeletons/spineboy-unity/spineboy_Material.mat
+  artifactKey: Guid(1455e88fdb81ccc45bdeaedd657bad4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine Examples/Spine Skeletons/spineboy-unity/spineboy_Material.mat using Guid(1455e88fdb81ccc45bdeaedd657bad4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '446fa472478bed50b493ca71a659479c') in 0.034766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 328.295899 seconds.
+  path: Assets/Spine Examples/Spine Skeletons/raptor-pro-and-mask/raptor-pma_Atlas.asset
+  artifactKey: Guid(accb8bd06230af54b9b294a8ed032d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine Examples/Spine Skeletons/raptor-pro-and-mask/raptor-pma_Atlas.asset using Guid(accb8bd06230af54b9b294a8ed032d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95eee8947345c01e1560766a85e5ea39') in 0.013739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Spine Examples/Spine Skeletons/raptor-pro-and-mask/raptor-pma_Material_InsideMask.mat
+  artifactKey: Guid(11b8e87884357884a8d31758fca91bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine Examples/Spine Skeletons/raptor-pro-and-mask/raptor-pma_Material_InsideMask.mat using Guid(11b8e87884357884a8d31758fca91bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b91c01b513a8c418533a251aaf41c8aa') in 0.022930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Spine Examples/Spine Skeletons/raptor-pro-and-mask/raptor-pro_SkeletonData.asset
+  artifactKey: Guid(784054e42b1ea374cb535eaf51bf4369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine Examples/Spine Skeletons/raptor-pro-and-mask/raptor-pro_SkeletonData.asset using Guid(784054e42b1ea374cb535eaf51bf4369) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Problematic material setup at Spine GameObject (raptor-pro): 
+Warning: Premultiply-alpha atlas textures not supported in Linear color space!You can use a straight alpha texture with 'PMA Vertex Color' by choosing blend mode 'PMA Vertex, Straight Texture'.
+
+If you have a PMA Texture, please
+a) re-export atlas as straight alpha texture with 'premultiply alpha' unchecked
+   (if you have already done this, please set the 'Straight Alpha Texture' Material parameter to 'true') or
+b) switch to Gamma color space via
+Project Settings - Player - Other Settings - Color Space.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Debug:LogWarningFormat (UnityEngine.Object,string,object[])
+Spine.Unity.SkeletonRenderer:Initialize (bool,bool) (at Assets/Spine/Runtime/spine-unity/Components/SkeletonRenderer.cs:515)
+Spine.Unity.SkeletonAnimation:Initialize (bool,bool) (at Assets/Spine/Runtime/spine-unity/Components/SkeletonAnimation.cs:189)
+Spine.Unity.Editor.EditorInstantiation:InstantiateSkeletonAnimation (Spine.Unity.SkeletonDataAsset,Spine.Skin,bool,bool) (at Assets/Spine/Editor/spine-unity/Editor/Utility/AssetUtility.cs:1350)
+Spine.Unity.Editor.EditorInstantiation:InstantiateSkeletonAnimation (Spine.Unity.SkeletonDataAsset,string,bool,bool) (at Assets/Spine/Editor/spine-unity/Editor/Utility/AssetUtility.cs:1320)
+Spine.Unity.Editor.SkeletonInspectorPreview:Initialize (System.Action,Spine.Unity.SkeletonDataAsset,string) (at Assets/Spine/Editor/spine-unity/Editor/Asset Types/SkeletonDataAssetInspector.cs:869)
+Spine.Unity.Editor.SkeletonDataAssetInspector:InitializeEditor () (at Assets/Spine/Editor/spine-unity/Editor/Asset Types/SkeletonDataAssetInspector.cs:150)
+Spine.Unity.Editor.SkeletonDataAssetInspector:OnEnable () (at Assets/Spine/Editor/spine-unity/Editor/Asset Types/SkeletonDataAssetInspector.cs:84)
+UnityEditor.Editor:CreateEditorWithContext (UnityEngine.Object[],UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditor (UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditor (UnityEngine.Object)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+(Filename: Assets/Spine/Runtime/spine-unity/Components/SkeletonRenderer.cs Line: 515)
+
+ -> (artifact id: 'a2343dff1b0d7da9a62af2de79edaa46') in 0.267295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Spine Examples/Spine Skeletons/raptor-pro-and-mask/raptor-pma_MaterialTint.mat
+  artifactKey: Guid(63cb49ec035f5a8478d2597e35875418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine Examples/Spine Skeletons/raptor-pro-and-mask/raptor-pma_MaterialTint.mat using Guid(63cb49ec035f5a8478d2597e35875418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27a89b246e64ecad53e3650650cf3ec8') in 0.021137 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003922 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\unity practice\SpineSampleWithUnity\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\unity practice\SpineSampleWithUnity\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.169 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1170ms)
+		BeginReloadAssembly (142ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (924ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (295ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (407ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (51ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (235ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3619 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (1.4 MB). Loaded Objects now: 4156.
+Memory consumption went from 142.2 MB to 140.8 MB.
+Total: 4.812800 ms (FindLiveObjects: 0.349500 ms CreateObjectMapping: 0.151200 ms MarkObjects: 3.390700 ms  DeleteObjects: 0.919500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003436 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\unity practice\SpineSampleWithUnity\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\unity practice\SpineSampleWithUnity\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.090 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1091ms)
+		BeginReloadAssembly (130ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (871ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (269ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (407ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (44ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (237ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3619 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (1.5 MB). Loaded Objects now: 4159.
+Memory consumption went from 142.2 MB to 140.8 MB.
+Total: 3.941700 ms (FindLiveObjects: 0.315900 ms CreateObjectMapping: 0.090700 ms MarkObjects: 2.658000 ms  DeleteObjects: 0.874500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
